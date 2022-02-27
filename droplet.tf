@@ -1,6 +1,6 @@
-resource "digitalocean_droplet" "dripp-0" {
+resource "digitalocean_droplet" "bombard-0" {
   image  = "ubuntu-20-04-x64"
-  name   = "dripp-0"
+  name   = "bombard-0"
   region = var.do_region
   size   = var.droplet_size
   ssh_keys = [
